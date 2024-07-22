@@ -63,9 +63,9 @@
 ##### 1: ascendente
 ##### 2: plano
 ##### 3: declive
-Caa : Número de vasos principais coloridos pela fluoroscopia (Inteiro; 0-3)
-Thal : Talassemia (Categórica)
-3: normal
-6: defeito corrigido
-7: defeito reversível
-User_id : id do usuário, pode ser encontrado na lista de usuários registrados.
+#### Caa : Número de vasos principais coloridos pela fluoroscopia (Inteiro; 0-3)
+#### Thal : Talassemia (Categórica)
+##### 3: normal
+##### 6: defeito corrigido
+##### 7: defeito reversível
+#### User_id : id do usuário, pode ser encontrado na lista de usuários registrados.
