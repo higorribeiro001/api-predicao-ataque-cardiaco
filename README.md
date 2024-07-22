@@ -20,6 +20,24 @@
 ### Utilizando o swagger, faça o registro do paciente em "users" e posteriormente pode realizar a consulta do mesmo em "possibility_attack"
 ### Para registrar o usuário basta:
 #### {
-####  "name": "string",
-####  "cpf": "string"
+  ####  "name": "Higor",
+  ####  "cpf": "888.888.888-99"
 #### }
+#### Obs: O cpf será utilizado apenas para identificar o paciente e diferenciá-lo dos demais, portanto não necessita ser o dado real.
+### Já para a consulta, é necessário mais dados e detalhes, por exemplo:
+####{
+  ####"age": 22,
+  ####"sex": 1,
+  ####"cp": 1,
+  ####"trtbps": 110,
+  ####"chol": 130,
+  ####"fbs": 0,
+  ####"restecg": 0,
+  ####"thalachh": 150,
+  ####"exng": 0,
+  ####"oldpeak": 2.1,
+  ####"slp": 1,
+  ####"caa": 2,
+  ####"thall": 3,
+  ####"user_id": 1
+####}
