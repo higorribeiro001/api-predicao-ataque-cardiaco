@@ -4,27 +4,27 @@
 
 ## Execução:
 
-### Você pode executar de dois modos: por máquina virtual ou por docker.
-### No ambiente Windows, basta seguir os seguintes passos no terminal:
+### - Você pode executar de dois modos: por máquina virtual ou por docker.
+### - No ambiente Windows, basta seguir os seguintes passos no terminal:
 #### 1- criar uma venv:
 #### python -m venv venv
 #### 2- executar a venv:
 #### ./venv/scripts/activate
 #### 3- python manage.py runserver
 #### obs: Não irei fazer passos para outros OS. Caso tenha problemas, pesquise na internet ou consulte alguma IA.
-### Ainda em ambiente windows, agora para o docker, basta digitar o seguinte comando no terminal:
+### - Ainda em ambiente windows, agora para o docker, basta digitar o seguinte comando no terminal:
 #### docker compose up
 #### Se quiser executar em segundo plano: docker compose up -d
 
-### Você pode abrir o swagger do projeto no navegador, pela rota: api/schema/swagger-ui/
-### Utilizando o swagger, faça o registro do paciente em "users" e posteriormente pode realizar a consulta do mesmo em "possibility_attack"
-### Para registrar o usuário basta:
+### - Você pode abrir o swagger do projeto no navegador, pela rota: api/schema/swagger-ui/
+### - Utilizando o swagger, faça o registro do paciente em "users" e posteriormente pode realizar a consulta do mesmo em "possibility_attack"
+### - Para registrar o usuário basta:
 #### {
   ####  "name": "Higor",
   ####  "cpf": "888.888.888-99"
 #### }
 #### Obs: O cpf será utilizado apenas para identificar o paciente e diferenciá-lo dos demais, portanto não necessita ser o dado real.
-### Já para a consulta, é necessário mais dados e detalhes, por exemplo:
+### - Já para a consulta, é necessário mais dados e detalhes, por exemplo:
 #### {
   #### "age": 22,
   #### "sex": 1,
@@ -41,7 +41,7 @@
   #### "thall": 3,
   #### "user_id": 1
 #### }
-### Para entender melhor o que significa cada uma das chaves citadas acima, deixarei abaixo os detalhes:
+### - Para entender melhor o que significa cada uma das chaves citadas acima, deixarei abaixo os detalhes:
 #### Idade : Idade do paciente (Inteiro, anos)
 #### Sexo : Gênero (categórico; 1 = masculino, 0 = feminino)
 #### CP : Tipo de dor no peito (categórica)
