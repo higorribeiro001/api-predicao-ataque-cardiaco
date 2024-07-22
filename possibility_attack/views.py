@@ -66,7 +66,7 @@ class PossibilityAttackAPIv1ViewSet(ModelViewSet):
             if output == 1:
                 output = 'Grande chance de sofrer um infarto, doença cardíaca presente, vá ao médico, priorize a sua saúde.'
             else:
-                output = 'Pouca chance de sofrer um infarto, doença cardíaca ausente, mas não deixe de realizer consultas.'
+                output = 'Pouca chance de sofrer um infarto, doença cardíaca ausente, mas não deixe de realizar consultas.'
 
             return Response(output, status=status.HTTP_201_CREATED)
         
