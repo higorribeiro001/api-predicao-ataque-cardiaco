@@ -28,8 +28,10 @@ python manage.py runserver
 ~~~
 docker compose up
 ~~~
-#### Se quiser executar em segundo plano: docker compose up -d
-
+#### Se quiser executar em segundo plano: 
+~~~
+docker compose up -d
+~~~
 ### - Você pode abrir o swagger do projeto no navegador, pela rota: api/schema/swagger-ui/
 ### - Utilizando o swagger, faça o registro do paciente em "users" e posteriormente pode realizar a consulta do mesmo em "possibility_attack"
 ### - Para registrar o usuário basta:
