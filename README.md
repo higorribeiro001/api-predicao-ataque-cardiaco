@@ -61,6 +61,7 @@ docker compose up -d
   #### "user_id": 1
 }
 ~~~
+> Mais Detalhes:
 ### - Para entender melhor o que significa cada uma das chaves citadas acima, deixarei abaixo os detalhes:
 #### Idade : Idade do paciente (Inteiro, anos)
 #### Sexo : Gênero (categórico; 1 = masculino, 0 = feminino)
