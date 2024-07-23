@@ -15,7 +15,8 @@
 #### pip install tensorflow
 4. Instale todas as outras bibliotecas necessárias:
 #### pip install -r requirements.txt
-5. python manage.py runserver
+5. Executar o projeto:
+#### python manage.py runserver
 #### obs: Não irei fazer passos para outros OS. Caso tenha problemas, pesquise na internet ou consulte alguma IA.
 ### - Para executar por meio do docker, basta digitar o seguinte comando no terminal:
 #### docker compose up
