@@ -8,7 +8,7 @@
 ### - Você pode executar de dois modos: por máquina virtual ou por docker.
 ### - No ambiente Windows, basta seguir os seguintes passos no terminal:
 1. criar uma venv:
-#### python -m venv venv
+~~~python python -m venv venv
 2. executar a venv:
 #### ./venv/scripts/activate
 3. Por conta do docker o "tensorflow" não foi incluído no requirements.py, portanto rode o seguinte comando: 
