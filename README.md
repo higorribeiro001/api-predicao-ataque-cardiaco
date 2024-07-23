@@ -35,13 +35,16 @@ docker compose up -d
 ### - Você pode abrir o swagger do projeto no navegador, pela rota: api/schema/swagger-ui/
 ### - Utilizando o swagger, faça o registro do paciente em "users" e posteriormente pode realizar a consulta do mesmo em "possibility_attack"
 ### - Para registrar o usuário basta:
-#### {
+~~~
+{
   ####  "name": "Higor",
   ####  "cpf": "888.888.888-99"
-#### }
+}
+~~~
 #### Obs: O cpf será utilizado apenas para identificar o paciente e diferenciá-lo dos demais, portanto não necessita ser o dado real.
 ### - Já para a consulta, é necessário mais dados e detalhes, por exemplo:
-#### {
+~~~
+{
   #### "age": 22,
   #### "sex": 1,
   #### "cp": 1,
@@ -56,7 +59,8 @@ docker compose up -d
   #### "caa": 2,
   #### "thall": 3,
   #### "user_id": 1
-#### }
+}
+~~~
 ### - Para entender melhor o que significa cada uma das chaves citadas acima, deixarei abaixo os detalhes:
 #### Idade : Idade do paciente (Inteiro, anos)
 #### Sexo : Gênero (categórico; 1 = masculino, 0 = feminino)
