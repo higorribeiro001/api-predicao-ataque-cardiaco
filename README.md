@@ -16,7 +16,9 @@ python -m venv venv
 ./venv/scripts/activate
 ~~~
 3. Por conta do docker o "tensorflow" não foi incluído no requirements.py, portanto rode o seguinte comando: 
-#### pip install tensorflow
+~~~
+pip install tensorflow
+~~~
 4. Instale todas as outras bibliotecas necessárias:
 ~~~
 pip install -r requirements.txt
